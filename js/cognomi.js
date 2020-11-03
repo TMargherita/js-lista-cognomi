@@ -1,6 +1,6 @@
 
 //definsco lista cognomi
-var listaCognomi = ["Bianchi", "Rossi", "Duzioni", "Balsano", "Verdi"];
+var listaCognomi = ["bianchi", "rossi", "duzioni", "balsano", "verdi"];
 
 //Chiedere all’utente il cognome//
 var cognomeUtente = prompt("Inserisci il tuo cognome");
@@ -19,4 +19,4 @@ for ( i = 0; i < listaCognomi.length; i++) {
 }
 //scrivo la posizione in lista//
 var posizione = listaCognomi.indexOf(cognomeUtente) +1;
-document.getElementById("posizione").innerHTML = "La tua posizione in lista è" + posizione;
+document.getElementById("posizione").innerHTML = "La tua posizione in lista è :" + posizione;
